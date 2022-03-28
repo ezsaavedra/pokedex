@@ -1,0 +1,56 @@
+body{
+
+    background-image: url(./background.jpg);
+}
+#pokedex{
+    position: relative;
+    left: 300px;
+    top: 100px;
+}
+#pokeImg{
+    position:absolute;
+    height: 120px;
+    width: 120px;
+    left: 435px;
+    top: 252px;
+}
+#pokeName{
+    position: absolute;
+    height: 75px;
+    width: 170px;
+    left: 690px;
+    top: 225px;
+    text-align: center;
+    background: none;
+    backface-visibility: hidden;
+    border: none;
+    margin: none;
+    color: white;
+
+}
+#title{
+    position: absolute;
+    left: 452px;
+    top: 448px;
+
+}
+#txt{
+    position: absolute;
+    width: 70px;
+    left: 690px;
+    top: 480px;
+    backface-visibility: hidden;
+    background: none;
+    border: none;
+    color: white;
+
+}
+#b1{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 820px;
+    top: 410px;
+    border-radius: 50%;
+
+}

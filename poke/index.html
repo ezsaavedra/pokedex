@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>pokedex</title>
+</head>
+<body>
+    <script>
+    window.alert("Bienvenido a mi sitio web. Gracias...") 
+    </script> 
+    <img id="pokedex" src="pokedex.png.png" alt="pokedex">
+    <h5 id="title">POKEDEX</h5>
+    <input type="text" placeholder="pokemon" id="pokeName" name="pokeName"><br>
+    <img src="./pokebola.png" id="pokeImg" alt="Pokemon" width="150px"><br>
+    <input type="text" readonly= "readonly" value="tipo:" id="txt">
+
+    <!-- en el onclick se esta llamando a la funcion de js que se va a ejecutar. -->
+    <button onclick="fetchPokemon()" id="b1"></button>
+</body>
+<footer>
+    <!--- INSERTAR EL ARCHIVO JS  -->
+    <script src="./pokedex.js"></script>
+</footer>
+</html>
